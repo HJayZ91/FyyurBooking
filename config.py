@@ -10,8 +10,6 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 DEBUG = True
 
 # Connect to the database
-app = Flask(__name__)
-db = SQLAlchemy(app)
 
 # TODO IMPLEMENT DATABASE URL
 SQLALCHEMY_DATABASE_URI = 'postgresql://mac@localhost:5432/fyyurapp'
